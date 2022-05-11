@@ -14,7 +14,7 @@ int main()
     {
         fact *= i;
         prod *= x;
-        sum += (float)prod / (float)fact;
+        sum += (float)prod / fact;
     }
     printf("\nThe required sum of the series is : %.2f", sum);
 
